@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box !important;
+}
+body{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+#card1{
+    overflow: hidden;
+    cursor: zoom-in;
+}
+img{
+    transform-origin: center center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.header{
+    margin-top: 0 !important;
+    margin-bottom: 25px;
+    align-items: center;
+}
+/* .header h1{
+
+} */
