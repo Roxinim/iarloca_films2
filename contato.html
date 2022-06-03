@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IARLOCA</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getlogin(), zoom()">
+
+
+
+
+
+    
+    <div class="container">
+        <div class="row mt-2 header rounded-bottom">
+            <div class="col-4 offset-4 text-center">
+                <!-- <a href="home.html" class="link-dark">
+                    <h1>IARLÓCA FILMS</h1>
+                </a> -->
+                <a href="home.html"><img src="novoprojeto.png" alt=""></a>
+            </div>
+            <div class="col-2 align-items-end pb-5" id="">
+                <p id="" onload="">
+                    Bem-vindo, 
+                    <strong id="bemvindo"></strong>
+                    !
+                </p>
+            </div>
+            <div class="col-2">
+                <div class="col">
+                    <a href="carrinho.html">
+                        <button type="button" class="btn btn-success text-white container-fluid mb-3">Carrinho</button>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="cep.html">
+                        <button type="button" class="btn btn-dark text-white container-fluid mb-3">CEP</button>
+                    </a>
+                </div> <div class="col">
+                    <a href="contato.html">
+                        <button type="button" class="btn btn-light container-fluid mb-3">Contato</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-8 offset-2 card  bg-dark text-white" >
+                <h1 class="card-body text-center text-white">Fale Conosco</h1>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="name" class="form-control my-3 bg-black text-white border-white" placeholder="Your Name">
+                    <input type="text" name="email" class="form-control my-3 bg-black text-white border-white" placeholder="Your Email" />
+                    <textarea name="message" class="form-control my-3 bg-black text-white border-white"></textarea>
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="86933e5f-275a-4f2e-ba31-5e5754b60433">
+                    <input type="hidden" name="subject" value="Contact us from - example.com" />
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/PROVA%20FILME%20-%20Copia/home.html">
+                    <div class="col-4 offset-4">
+                        <input type="submit" class="btn btn-success  my-3 container-fluid" value="Enviar" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!-- 86933e5f-275a-4f2e-ba31-5e5754b60433 -->
